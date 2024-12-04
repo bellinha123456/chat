@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body{
+    height: 100vh;
+    background-color: palevioletred;
+    font-family: "Parisienne", cursive;
+}
+ 
+.container{
+    height: 100%;
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+}
+ 
+.contatos{
+    background-color: azure;
+    border: 1px solid;
+    padding: 5px;
+    min-width: 350px;
+}
+ 
+.area-contato{
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    border-radius: 5px;
+    gap:5px;
+}
+
+.perfil{
+    width: 69px;
+}
+
+.perfil img{
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid red;
+    vertical-align: middle;
+}
+
+.conteudos{
+    width: 100%;
+}
+
+.topo-conteudo{
+    display: flex;
+    flex-direction: row;
+    height: 78px;
+    background-color: #ffffff;
+    gap: 48px;
+    padding: 10px;
+}
+
+.logo{
+    width: 76px;
+}
+
+.logo img{
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    vertical-align: middle;
+}
+.area-envio-msg{
+    display: flex;
+    height: 90%;
+    justify-content: center;
+    align-items: end ;
+}
